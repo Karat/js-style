@@ -132,7 +132,7 @@ module.exports = {
     'space-in-parens': ['error', 'never'],
     'space-infix-ops': 'off',
     'space-unary-ops': ['error', {'words': true, 'nonwords': false}],
-    'spaced-comment': ['error', 'always', {markers: ['global', 'globals', 'eslint', 'eslint-disable']}],
+    'spaced-comment': ['error', 'always', {'markers': ['global', 'globals', 'eslint', 'eslint-disable']}],
     'template-curly-spacing': ['error', 'never'],
     'use-isnan': 'error',
     'valid-typeof': 'error',
