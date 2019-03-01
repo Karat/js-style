@@ -28,7 +28,7 @@ module.exports = {
     'eqeqeq': ['error', 'smart'],
     'generator-star-spacing': ['error', {'before': true, 'after': true}],
     'handle-callback-err': 'off',
-    'indent': ['error', 2],
+    'indent': ['error', 2, {'SwitchCase': 1}],
     'key-spacing': ['error', {'beforeColon': false, 'afterColon': true}],
     'keyword-spacing': [
       'error', {
