@@ -10,7 +10,7 @@ Shareable ESLint config
 
 ```
 yarn add --dev ssh://git@github.com:Karat/js-style.git#<LATEST_GITHUB_COMMIT_NUMBER>
-yarn add --dev eslint
+yarn add --dev babel-eslint eslint
 ```
 
 Note: You can get the latest Github commit by clicking on [commits](https://github.com/Karat/js-style/commits/master).
@@ -19,13 +19,13 @@ Note: You can get the latest Github commit by clicking on [commits](https://gith
 
 Extend in your project [eslint config](https://eslint.org/docs/user-guide/configuring#using-a-shareable-configuration-package):
 
+```
+// .eslintrc.yml
+extends:
+  - js-style
+```
 
-```
-// .eslintrc.json
-{
-    "extends": "js-style"
-}
-```
+Note: This is not necessary if using sapphire to run the linter tasks.
 
 ## Run
 
