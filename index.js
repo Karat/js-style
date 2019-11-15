@@ -10,6 +10,7 @@ module.exports = {
     'ecmaVersion': 7,
     'ecmaFeatures': {'jsx': true, 'classes': true},
   },
+  plugins: ['react'],
   extends: ['eslint:recommended'],
   rules: {
     'accessor-pairs': 'error',
@@ -142,5 +143,7 @@ module.exports = {
     'wrap-iife': ['error', 'any'],
     'yield-star-spacing': ['error', 'both'],
     'yoda': ['error', 'never'],
+    'react/jsx-uses-vars': 'error',
+    'react/jsx-uses-react': 'error',
   },
 };
