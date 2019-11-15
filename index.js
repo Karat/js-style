@@ -17,6 +17,7 @@ module.exports = {
     'arrow-spacing': ['error', {'before': true, 'after': true}],
     'block-spacing': ['error', 'always'],
     'brace-style': 'error',
+    'camelcase': 'error',
     'capitalized-comments': ['error', 'always', {'ignoreConsecutiveComments': true}],
     'comma-dangle': ['error', 'always-multiline'],
     'comma-spacing': ['error', {'before': false, 'after': true}],
@@ -36,6 +37,7 @@ module.exports = {
         'overrides': {
           'case': {'after': true},
           'const': {'after': true},
+          'default': {'after': true},
           'let': {'after': true},
           'do': {'after': true},
           'else': {'after': true},
