@@ -14,6 +14,7 @@ module.exports = {
   extends: ['eslint:recommended'],
   rules: {
     'accessor-pairs': 'error',
+    'array-bracket-spacing': ['error', 'never'],
     'arrow-parens': ['error', 'always'],
     'arrow-spacing': ['error', {'before': true, 'after': true}],
     'block-spacing': ['error', 'always'],
@@ -124,6 +125,7 @@ module.exports = {
     'no-useless-constructor': 'error',
     'no-var': 'error',
     'no-with': 'error',
+    'object-curly-spacing': ['error', 'never'],
     'operator-linebreak': ['error', 'after'],
     'padded-blocks': ['error', 'never'],
     'prefer-arrow-callback': 'error',
