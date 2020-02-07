@@ -125,6 +125,11 @@ module.exports = {
     'no-var': 'error',
     'no-with': 'error',
     'operator-linebreak': ['error', 'after'],
+    'padding-line-between-statements': [
+      'error',
+      {'blankLine': "always", 'prev': ['multiline-const', 'multiline-let', 'multiline-var', 'multiline-expression', 'multiline-block-like'], 'next': '*'},
+      {'blankLine': 'always', 'prev': '*', 'next': ['multiline-const', 'multiline-let', 'multiline-var', 'multiline-expression', 'multiline-block-like']},
+    ],
     'padded-blocks': ['error', 'never'],
     'prefer-arrow-callback': 'error',
     'prefer-const': 'error',
