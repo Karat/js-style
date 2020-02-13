@@ -119,7 +119,7 @@ module.exports = {
     'no-unexpected-multiline': 'error',
     'no-unneeded-ternary': ['error', {'defaultAssignment': false}],
     'no-unreachable': 'error',
-    'no-unused-vars': 'error',
+    'no-unused-vars': ['error', {'ignoreRestSiblings': true }],
     'no-undef': 'off',
     'no-useless-call': 'error',
     'no-useless-constructor': 'error',
