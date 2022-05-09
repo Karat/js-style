@@ -20,7 +20,6 @@ module.exports = {
     'block-spacing': ['error', 'always'],
     'brace-style': 'error',
     'camelcase': 'error',
-    'capitalized-comments': ['error', 'always', {'ignoreConsecutiveComments': true}],
     'comma-dangle': ['error', 'always-multiline'],
     'comma-spacing': ['error', {'before': false, 'after': true}],
     'comma-style': ['error', 'last'],
