@@ -1,7 +1,3 @@
-# eslint-config-js-style
-
-[Karat Internal Wiki](https://wiki.karat.io/wiki/engineering/view/Main/Code%20Style%20Guides/JavaScript%20Style%20Guide/)
-
 # js-style
 
 Shareable ESLint config
